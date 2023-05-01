@@ -1,0 +1,25 @@
+services:
+  # A Docker web service
+  - type: web
+    name: ben-a11
+    env: docker
+    region: Singapore
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        # value: BOT_TOKEN
+        sync: false
+      - key: DB_URL
+        # value: DB_URL
+        sync: false
+      - key: ADMINS
+        # value: ADMINS
+        sync: false
+      - key: WORKER_URL
+        # value: WORKER_URL
+        sync: false
+      - key: API_KEY
+        # value: API_KEY
+        sync: false
+      - key: LIMIT
+        value: 800
