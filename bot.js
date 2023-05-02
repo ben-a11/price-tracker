@@ -286,6 +286,6 @@ bot.catch((err) => {
   bot.start();
 });
 
-setInterval(track, 3600000); //Track every hr.
+setInterval(track, 840000); //Track every hr.
 
 export default bot
